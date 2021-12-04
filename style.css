@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+a {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+ul {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  margin-inline: auto;
+  max-width: 90%;
+}
+
+img {
+  width: 100%;
+}
+
+.nav {
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+
+.nav ul {
+  text-transform: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav ul li {
+  color: white;
+  font-size: 1rem;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  z-index: -2;
+  background-image: url(https://image.freepik.com/free-vector/neon-design-colorful-background_23-2149084790.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-animation: slide 15s infinite;
+          animation: slide 15s infinite;
+}
+
+.hero .content {
+  text-align: center;
+  width: 80%;
+  margin-inline: auto;
+  padding-block: 2.5em;
+}
+
+.hero .content h1,
+.hero .content p {
+  color: white;
+}
+
+.hero .content h1 {
+  font-size: 2.7em;
+  line-height: 1.1em;
+}
+
+.hero .content p {
+  margin-block: -1.4em 2em;
+  line-height: 1.4em;
+}
+
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.hero .main-btn {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding: 0.5em 0.7em;
+  color: #026670;
+  background: #9fedd7;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1em;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 0.2em #9fedd7, 0 0 0.8em #9fedd7, 0 0 3.2em #9fedd7;
+          box-shadow: 0 0 0.2em #9fedd7, 0 0 0.8em #9fedd7, 0 0 3.2em #9fedd7;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.welcome {
+  background: #fef9c7;
+  text-align: center;
+}
+
+.welcome h2 {
+  color: #026670;
+  margin-block: 0;
+}
+
+.welcome .container {
+  padding-block: 1rem;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    background-image: url(https://image.freepik.com/free-vector/neon-design-colorful-background_23-2149084790.jpg);
+  }
+  33% {
+    background-image: url(https://videohive.img.customer.envatousercontent.com/files/c64f63fe-cb2f-4fbf-9172-d647eeb1c23f/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=96f714f58f4f0494a2ddc1d1bae7e930);
+  }
+  67% {
+    background-image: url(https://media.istockphoto.com/photos/3d-render-abstract-pink-blue-violet-neon-background-music-performance-picture-id1155272611?k=20&m=1155272611&s=170667a&w=0&h=Ofrsdpk6GEYhy7frVLKqp71y1SytsOv6g70MwOvwfwE=);
+  }
+}
+
+@keyframes slide {
+  0% {
+    background-image: url(https://image.freepik.com/free-vector/neon-design-colorful-background_23-2149084790.jpg);
+  }
+  33% {
+    background-image: url(https://videohive.img.customer.envatousercontent.com/files/c64f63fe-cb2f-4fbf-9172-d647eeb1c23f/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=96f714f58f4f0494a2ddc1d1bae7e930);
+  }
+  67% {
+    background-image: url(https://media.istockphoto.com/photos/3d-render-abstract-pink-blue-violet-neon-background-music-performance-picture-id1155272611?k=20&m=1155272611&s=170667a&w=0&h=Ofrsdpk6GEYhy7frVLKqp71y1SytsOv6g70MwOvwfwE=);
+  }
+}
+/*# sourceMappingURL=style.css.map */
